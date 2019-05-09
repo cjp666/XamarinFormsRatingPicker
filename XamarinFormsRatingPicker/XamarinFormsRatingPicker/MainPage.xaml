@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFormsRatingPicker"
+             x:Class="XamarinFormsRatingPicker.MainPage">
+
+    <StackLayout Padding="50">
+        <!-- Place new controls here -->
+        <local:RatingPicker x:Name="TheRating1" RatingUpdated="RatingPicker_RatingUpdated" />
+        <local:RatingPicker x:Name="TheRating2" RatingUpdated="RatingPicker_RatingUpdated" />
+        <local:RatingPicker x:Name="TheRating3" RatingUpdated="RatingPicker_RatingUpdated" />
+        <local:RatingPicker x:Name="TheRating4" RatingUpdated="RatingPicker_RatingUpdated" />
+    </StackLayout>
+    
+</ContentPage>
